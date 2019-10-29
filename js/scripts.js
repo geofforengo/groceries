@@ -29,20 +29,24 @@ var itemsUpper =items.map(function(item){
 
 console.log(itemsUpper);
 
-var listItem0=itemsUpper[0];
-var listItem1=itemsUpper[1];
-var listItem2=itemsUpper[2];
-var listItem3=itemsUpper[3];
-var listItem4=itemsUpper[4];
-var listItem5=itemsUpper[5];
+for (var index=0; index<=itemsUpper.length; index+=1) {
+  $("ul#finallist").append(itemsUpper[index]);
+};
 
-
-$("#li1").text(listItem0);
-$("#li2").text(listItem1);
-$("#li3").text(listItem2);
-$("#li4").text(listItem3);
-$("#li5").text(listItem4);
-$("#li6").text(listItem5);
+// var listItem0=itemsUpper[0];
+// var listItem1=itemsUpper[1];
+// var listItem2=itemsUpper[2];
+// var listItem3=itemsUpper[3];
+// var listItem4=itemsUpper[4];
+// var listItem5=itemsUpper[5];
+//
+//
+// $("#li1").text(listItem0);
+// $("#li2").text(listItem1);
+// $("#li3").text(listItem2);
+// $("#li4").text(listItem3);
+// $("#li5").text(listItem4);
+// $("#li6").text(listItem5);
 
 
 
